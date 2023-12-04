@@ -1,13 +1,31 @@
 .header {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   height: 50px;
    background-color: #ff9494;
-   padding: 0 15px;
-   text-align: center;
-   font-weight: bold;
-   text-transform: uppercase;
-   font-size: 16px;
- }
- 
+   font-size: 32px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 10px;
+}
+
+.menu-buttons {
+   display: flex;
+   gap: 10px;
+   color: #000000;
+}
+
+.menu-buttons button {
+   background-color: #fff; /* Цвет фона кнопок */
+   color: #000; /* Цвет текста кнопок */
+   border: 1px solid #000; /* Граница кнопок */
+   padding: 5px 10px; /* Внутренний отступ кнопок */
+   cursor: pointer;
+   font-size: 18px;
+}
+
+.selected-menu {
+   margin-top: 10px;
+   color: #000000;
+   font-weight: bold; /* Жирный шрифт для выбранного раздела */
+   font-style: italic; /* Курсив для выбранного раздела */
+}

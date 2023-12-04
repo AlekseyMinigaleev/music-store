@@ -1,0 +1,71 @@
+.modal {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: white;
+   padding: 20px;
+   border: 1px solid #ccc;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   max-width: 400px;
+   width: 100%;
+ }
+ 
+ /* Заголовок модального окна */
+ .modal h2 {
+   margin-bottom: 20px;
+ }
+ 
+ /* Стили для меток и полей ввода */
+ .modal label {
+   display: block;
+   margin-bottom: 5px;
+ }
+ .modal button + button {
+   margin-top: 10px;
+ }
+ 
+ .modal input,
+ .modal select {
+   width: 100%;
+   padding: 8px;
+   margin-bottom: 15px;
+   box-sizing: border-box;
+ }
+ 
+ /* Кнопки в модальном окне */
+ .modal button {
+   background-color: #4caf50; /* Зеленый цвет для кнопок */
+   color: white;
+   padding: 10px;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   box-sizing: border-box;
+   font-size: 16px;
+ }
+ 
+ /* Стили для успешного сообщения */
+ .result-message.success {
+   color: green;
+ }
+ 
+ /* Стили для сообщения об ошибке */
+ .result-message.error {
+   color: red;
+ }
+ 
+ /* Иконки для сообщений */
+ .result-message .icon {
+   margin-right: 5px;
+   font-size: 18px;
+ }
+ 
+ .result-message .success-icon {
+   color: green;
+ }
+ 
+ .result-message .error-icon {
+   color: red;
+ }
+ 

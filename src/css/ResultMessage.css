@@ -1,0 +1,43 @@
+/* ResultModal.css */
+
+.result-message {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: white;
+   padding: 20px;
+   border: 1px solid #ccc;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+   max-width: 300px;
+   width: 100%;
+   text-align: center;
+ }
+ 
+ .result-message.success {
+   border-color: green;
+ }
+ 
+ .result-message.error {
+   border-color: red;
+ }
+ 
+ .result-message .icon {
+   font-size: 24px;
+ }
+ 
+ .result-message .message {
+   margin: 10px 0;
+ }
+ 
+ .result-message button {
+   background-color: #4caf50;
+   color: white;
+   padding: 10px;
+   border: none;
+   cursor: pointer;
+   width: 100%;
+   box-sizing: border-box;
+   font-size: 16px;
+ }
+ 
